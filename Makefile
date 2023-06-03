@@ -1,6 +1,6 @@
 CC := clang++ -std=c++17
 TARGET := main
-SRC := t_$(n).cpp
+SRC := src/t_$(n).cpp
 EXECUTABLES := $(wildcard t_*)
 
 all: main run clean
