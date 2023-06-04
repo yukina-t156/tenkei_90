@@ -1,7 +1,7 @@
 CC := clang++ -std=c++17
 TARGET := main
 SRC := src/t_$(n).cpp
-EXECUTABLES := $(wildcard t_*)
+EXECUTABLES := $(wildcard src/t_*)
 
 all: main run clean
 

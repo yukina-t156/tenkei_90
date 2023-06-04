@@ -1,15 +1,16 @@
 # About this repository
-[典型90問](https://atcoder.jp/contests/typical90)を解く
+[典型90問](https://atcoder.jp/contests/typical90)を解く  
 from：2023/06/03
 ***
 # Usage
 - `make n=001`のようにすると`input.txt`を標準入力として`src/t_001.cpp`が実行されます
-- `make clean_dir`のようにすると生成されたt_???形式の実行可能ファイルが全て消去されます
-  
+- `make clean_dir`のようにするとsrc内に生成されたt_???形式の実行可能ファイルが全て消去されます
+※ src内でのmake使用にはまだ対応できていません
+
 ***
 # Progress
 - [x] 001 2023/06/03
-- [ ] 002
+- [x] 002 2023/06/04
 - [ ] 003
 - [ ] 004
 - [ ] 005
